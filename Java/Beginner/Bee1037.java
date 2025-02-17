@@ -8,7 +8,7 @@ public class Bee1037{
         if(valor >= 0 && valor <= 25.0000){
             System.out.println("Intervalo [0,25]");
         }else if(valor >= 25.00001 && valor <= 50.0000000){
-            System.out.println("Interavalo (25,50]");
+            System.out.println("Intervalo (25,50]");
         }else if(valor >= 50.00000001 && valor <= 75.0000000){
             System.out.println("Intervalo (50,75]");
         }else if(valor >= 75.00000001 && valor <= 100){
