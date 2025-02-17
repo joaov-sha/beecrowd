@@ -9,10 +9,10 @@ public class Bee1035{
         B = s.nextInt();
         C = s.nextInt();
         D = s.nextInt();
-        if(B > C && D > A && (C+D) > (A+B) && C > 0 && D > 0 && A % 2 != 0){
-            System.out.println("Valores nao aceitos");
-        }else{
+        if(B > C && D > A && (C+D) > (A+B) && C > 0 && D > 0 && A % 2 == 0){
             System.out.println("Valores aceitos");
+        }else{
+            System.out.println("Valores nao aceitos");
         }
         s.close();
     }
