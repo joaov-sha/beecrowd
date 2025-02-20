@@ -3,6 +3,9 @@ package Java.Beginner;
 import java.util.Scanner;
 public class Bee1021{
     public static void main(String[] args){
+
+        // Descrição: Leia um valor de ponto flutuante com duas casas decimais. Este valor representa um valor monetário. A seguir, calcule o menor número de notas e moedas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2. As moedas possíveis são de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. A seguir mostre a relação de notas e moedas necessárias.
+
         Scanner s = new Scanner(System.in);
         int nCem, nCinquenta, nVinte, nDez, nCinco, nDois, mUm, mCinquenta, mVinteCinco, mDez, mCinco, mCentavo;
         double valor = s.nextDouble();
