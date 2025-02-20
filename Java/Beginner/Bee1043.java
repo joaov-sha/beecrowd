@@ -11,7 +11,8 @@ public class Bee1043{
         a = s.nextDouble();
         b = s.nextDouble();
         c = s.nextDouble();
-        if((a + b) > c|| (a + c) > b || (b + c) > a){
+
+        if(a >= (b+c) || b >= (a+c) || c >= (a+b)){
             System.out.printf("Area = %.1f\n", (((a+b)*c)/2));
         }else{
             System.out.printf("Perimetro = %.1f\n", (a+b+c));
